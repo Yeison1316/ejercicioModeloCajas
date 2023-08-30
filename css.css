@@ -5,27 +5,30 @@ body, html {
 header{
     height: 60px;
     background-color: plum;
-}
-section{
-    background-color: green;
-    display: flex;
-    /*flex-direction: column-reverse;*/
+    grid-area: header;
 }
 nav{
-    width: 25%;
     background-color: coral;
+    grid-area: nav;
 }
 article{
-    width: 75%;
     height: 240px;
     background-color: beige;
+    grid-area: article;
 }
 footer{
     background-color: aquamarine;
     height: 80px;
+    grid-area: footer;
 }
 #container {
     margin: 0px auto;
     width: 1200px;
     background-color: orange;
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'nav article article article'
+    'footer footer footer footer'
+    ;
 }
