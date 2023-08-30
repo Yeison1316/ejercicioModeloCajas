@@ -1,0 +1,33 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+header{
+
+    height: 60px;
+    background-color: plum;
+}
+section{
+    background-color: green;
+    overflow: hidden;
+}
+nav{
+    float: left;
+    width: 25%;
+    background-color: coral;
+}
+article{
+    float: left;
+    width: 75%;
+    height: 240px;
+    background-color: beige;
+}
+footer{
+    background-color: aquamarine;
+    height: 80px;
+}
+#container {
+    margin: 0px auto;
+    width: 1200px;
+    background-color: orange;
+}
