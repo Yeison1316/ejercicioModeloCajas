@@ -3,21 +3,19 @@ body, html {
     margin: 0px;
 }
 header{
-
     height: 60px;
     background-color: plum;
 }
 section{
     background-color: green;
-    overflow: hidden;
+    display: flex;
+    /*flex-direction: column-reverse;*/
 }
 nav{
-    float: left;
     width: 25%;
     background-color: coral;
 }
 article{
-    float: left;
     width: 75%;
     height: 240px;
     background-color: beige;
